@@ -146,8 +146,8 @@ function respond() {
     this.res.writeHead(200);
     var team = request.text.substring(4,9);
     if(team) {
-      if (team == "ari") {
-        postMessage("");
+      if (team == "cc") {
+        postMessage("https://www.twitch.tv/cbf1914");
       }
       else if (team == "atl") {
         postMessage("https://www.twitch.tv/detroitginger44");
