@@ -92,6 +92,17 @@ function respond() {
     postMessage("https://i.groupme.com/851x1184.jpeg.330228901f684b0cb46cd1cef6953923");
     this.res.end();
   }
+  else if(request.text && botST.test(request.text)) {
+    this.res.writeHead(200);
+    var team= request.txt.substring (4,9)
+    if(team) {
+      if (team == "nycfc") {
+        postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
+     } else if (team == "nyrb") {
+        postMessage("google.com");
+     }
+    }
+  }
   else if(request.text && botRegexSiege.test(request.text)) {
     this.res.writeHead(200);
     if(0.6 >= Math.random() > 0.3)
@@ -152,14 +163,5 @@ function getRandomInt(min, max) {
 
 exports.respond = respond;
 
-else if(request.text && botST.test(request.text)) {
-    this.res.writeHead(200);
-    var team= request.txt.substring (4,9)
-    if(team) {
-      if (team == "nycfc") {
-        postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
-     } else if (team == "nyrb") {
-        postMessage("google.com");
-     }
-    }
+
     
