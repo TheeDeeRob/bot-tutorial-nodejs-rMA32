@@ -215,7 +215,7 @@ function respond() {
       else if (team == "oak") {
          postMessage("https://www.twitch.tv/rayboskii");
       }
-      else if (team == "phi") {
+      else if (team == "la") {
         postMessage("https://www.twitch.tv/ochoboy");
       }
       else if (team == "pit") {
