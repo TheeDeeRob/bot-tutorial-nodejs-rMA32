@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),botHugs = /^\/hugs/;
-      botStream = /^\/st/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
+      botSquad= /^\/sq/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botDoc = /^\/doc/; botSf = /^\/sf/;  botSd = /^\/sd/;  botBaseball = /^\/baseball/; botSteve = /^\/steve/;
@@ -142,18 +142,18 @@ function respond() {
     postMessage("You Disgusting Fuck");
     this.res.end();
   }
-    else if(request.text && botStream.test(request.text)) {
+    else if(request.text && botSquad.test(request.text)) {
     this.res.writeHead(200);
     var team = request.text.substring(4,9);
     if(team) {
-      if (team == "cc") {
-        postMessage("https://www.twitch.tv/cbf1914");
+      if (team == "col") {
+        postMessage("https://www.enjore.com/en/team/494839/colorado-rapids-mark/players");
       }
-      else if (team == "atl") {
-        postMessage("https://www.twitch.tv/detroitginger44");
+      else if (team == "cc") {
+        postMessage("https://www.enjore.com/en/team/494840/columbus-crew-soccer-club-will/players/");
       }
-      else if (team == "bal") {
-        postMessage("https://www.youtube.com/channel/UC1Wmb-MORXnuLLIcmuafgwg");
+      else if (team == "dc") {
+        postMessage("https://www.enjore.com/en/team/494841/d-c-united-john/players/");
       }
       else if (team == "buf") {
         postMessage("NO FUCKING STREAM!");
