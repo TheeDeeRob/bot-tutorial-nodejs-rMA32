@@ -155,94 +155,44 @@ function respond() {
       else if (team == "dc") {
         postMessage("https://www.enjore.com/en/team/494841/d-c-united-john/players/");
       }
-      else if (team == "buf") {
-        postMessage("NO FUCKING STREAM!");
-      }
-      else if (team == "car") {
-        postMessage("https://www.twitch.tv/newtonless_panthers");
-      }
-      else if (team == "chi") {
-        postMessage("https://www.twitch.tv/harriman8");
-      }
-      else if (team == "cin") {
-        postMessage("https://www.twitch.tv/aamigo72");
-      }
-      else if (team == "cle") {
-        postMessage("https://www.twitch.tv/wrjboy28");
-      }
-      else if (team == "dal") {
-        postMessage("https://www.twitch.tv/hurricane3737");
-      }
-      else if (team == "den") {
-        postMessage("https://www.twitch.tv/jokesonyoubats5792");
-      }
-      else if (team == "nycfc") {
-        postMessage("https://www.youtube.com/channel/UCh4--hcRHxKmOn5BHIy3GyA");
-      }
-      else if (team == "gb") {
-        postMessage("https://www.twitch.tv/aamigo72");
-      }
-      else if (team == "hou") {
-        postMessage("https://www.youtube.com/user/bullywully27");
-      }
-      else if (team == "ind") {
-        postMessage("https://www.twitch.tv/pugnok");
-      }
-      else if (team == "jac") {
-        postMessage("https://www.twitch.tv/KMac44");
-      }
-      else if (team == "kc") {
-        postMessage("NO FUCKING STREAM!");
-      }
-      else if (team == "mia") {
-        postMessage("NO FUCKING STREAM!");
-      }
-      else if (team == "min") {
-        postMessage("NO FUCKING STREAM!");
-      }
-      else if (team == "ne") {
-        postMessage("https://www.twitch.tv/AdmiralRunBad");
-      }
-      else if (team == "no") {
-        postMessage("https://www.twitch.tv/im2greedy");
-      }
-      else if (team == "nyg") {
-        postMessage("NO FUCKING STREAM!");
-      }
-      else if (team == "nyj") {
-        postMessage("NO FUCKING STREAM!");
-      }
-      else if (team == "oak") {
-         postMessage("https://www.twitch.tv/rayboskii");
-      }
       else if (team == "la") {
-        postMessage("https://www.twitch.tv/ochoboy");
+        postMessage("https://www.enjore.com/en/team/494842/los-angeles-galaxy-david/players/");
       }
-      else if (team == "pit") {
-        postMessage("https://www.twitch.tv/kingofkings412");
+      else if (team == "mon") {
+        postMessage("https://www.enjore.com/en/team/494843/montreal-impact-gershom/players/");
       }
-      else if (team == "sd") {
-        postMessage("https://www.youtube.com/user/SteVenSD420420");
+      else if (team == "nyr") {
+        postMessage("https://www.enjore.com/en/team/494844/new-york-red-bulls-johnie/players/");
       }
-      else if (team == "sf") {
-        postMessage("https://www.twitch.tv/aureateone");
+      else if (team == "nyc") {
+        postMessage("https://www.enjore.com/en/team/494845/new-york-city-football-club-danny/players/");
+      }
+      else if (team == "orl") {
+        postMessage("https://www.enjore.com/en/team/494846/orlando-city-soccer-club-kuako/players/");
       }
       else if (team == "sea") {
-         postMessage("https://www.twitch.tv/shayafar");
+        postMessage("https://www.enjore.com/en/team/494847/seattle-sounders-football-club-dino/players/");
       }
-      else if (team == "stl") {
-        postMessage("https://www.twitch.tv/phenom8524");
+      else if (team == "kc") {
+        postMessage("https://www.enjore.com/en/team/494848/sporting-kansas-city-brooks/players/");
       }
-      else if (team == "tb") {
-        postMessage("https://www.twitch.tv/nish_the_nub");
+      else if (team == "tor") {
+        postMessage("https://www.enjore.com/en/team/494849/toronto-football-club-jake/players/");
       }
-      else if (team == "ten") {
-         postMessage("https://www.twitch.tv/james37129");
+      else if (team == "phi") {
+        postMessage("https://www.enjore.com/en/team/494850/philadelphia-union-alex/players/");
       }
-      else if (team == "was") {
-        postMessage("http://twitch.tv/aye_yo_b_");
+      else if (team == "chi") {
+        postMessage("https://www.enjore.com/en/team/494851/chicago-fire-sean/players/");
+      }
+      else if (team == "dal") {
+        postMessage("https://www.enjore.com/en/team/494863/fc-dallas-javi/players/");
+      }
+      else if (team == "rsl") {
+        postMessage("https://www.enjore.com/en/team/494869/real-salt-lake-tba/players/");
       }
     }
+    
     this.res.end();
   }
   else {
