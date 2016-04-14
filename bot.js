@@ -8,7 +8,7 @@ function respond() {
       botSquad= /^\/sq/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
-      botRegexSiege = /^\/siege/; botStream= /^\/st/i; botDoc = /^\/doc/; botSf = /^\/sf/;  botSd = /^\/sd/;  botBaseball = /^\/baseball/; botSteve = /^\/steve/;
+      botRegexSiege = /^\/siege/; botDoc = /^\/doc/; botSf = /^\/sf/;  botSd = /^\/sd/;  botBaseball = /^\/baseball/; botSteve = /^\/steve/;
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
       siege3 = 'https://i.groupme.com/960x960.png.006e180e05d841c6a2962e844bf1e6fd';
   var teamAb = ["NE","NO","ARI","PHI","CLE","TEN","OAK","DAL","IND","SEA","CIN","PIT","JAC"
@@ -142,56 +142,6 @@ function respond() {
     postMessage("You Disgusting Fuck");
     this.res.end();
   }
-  else if(request.text && botStream.test(request.text)) {
-    this.res.writeHead(200);
-    var team = request.text.substring(4,9);
-    if(team) {
-      if (team == "col") {
-        postMessage("https://www.enjore.com/en/team/494839/colorado-rapids-mark/players");
-      }
-      else if (team == "cc") {
-        postMessage("https://www.twitch.tv/cbf1914/");
-      }
-      else if (team == "dc") {
-        postMessage("https://www.enjore.com/en/team/494841/d-c-united-john/players/");
-      }
-      else if (team == "la") {
-        postMessage("https://www.enjore.com/en/team/494842/los-angeles-galaxy-david/players/");
-      }
-      else if (team == "mon") {
-        postMessage("https://www.enjore.com/en/team/494843/montreal-impact-gershom/players/");
-      }
-      else if (team == "nyr") {
-        postMessage("https://www.enjore.com/en/team/494844/new-york-red-bulls-johnie/players/");
-      }
-      else if (team == "nyc") {
-        postMessage("https://www.enjore.com/en/team/494845/new-york-city-football-club-danny/players/");
-      }
-      else if (team == "orl") {
-        postMessage("https://www.enjore.com/en/team/494846/orlando-city-soccer-club-kuako/players/");
-      }
-      else if (team == "sea") {
-        postMessage("https://www.enjore.com/en/team/494847/seattle-sounders-football-club-dino/players/");
-      }
-      else if (team == "kc") {
-        postMessage("https://www.enjore.com/en/team/494848/sporting-kansas-city-brooks/players/");
-      }
-      else if (team == "tor") {
-        postMessage("https://www.enjore.com/en/team/494849/toronto-football-club-jake/players/");
-      }
-      else if (team == "phi") {
-        postMessage("https://www.enjore.com/en/team/494850/philadelphia-union-alex/players/");
-      }
-      else if (team == "chi") {
-        postMessage("https://www.enjore.com/en/team/494851/chicago-fire-sean/players/");
-      }
-      else if (team == "dal") {
-        postMessage("https://www.enjore.com/en/team/494863/fc-dallas-javi/players/");
-      }
-      else if (team == "rsl") {
-        postMessage("https://www.enjore.com/en/team/494869/real-salt-lake-tba/players/");
-      }
-    }
     else if(request.text && botSquad.test(request.text)) {
     this.res.writeHead(200);
     var team = request.text.substring(4,9);
