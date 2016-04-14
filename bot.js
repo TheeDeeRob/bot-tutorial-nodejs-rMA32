@@ -174,7 +174,7 @@ function respond() {
         postMessage("https://www.enjore.com/en/team/494847/seattle-sounders-football-club-dino/players/");
       }
       else if (team == "kc") {
-        postMessage("https://www.enjore.com/en/team/494848/sporting-kansas-city-brooks/players/");
+        postMessage("https://www.enjore.com/en/team/494848/sporting-kansas-city-phill/players/");
       }
       else if (team == "tor") {
         postMessage("https://www.enjore.com/en/team/494849/toronto-football-club-jake/players/");
