@@ -71,7 +71,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.daddyleagues.com/FBOS53/rules");
+    postMessage("https://docs.google.com/document/d/1Ix1ZRaLNeGR7ZVWenUfjZAkUgCXRvpdto6EulWO9DFc/pub");
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
