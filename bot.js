@@ -189,7 +189,7 @@ function respond() {
         postMessage("https://www.enjore.com/en/team/494863/fc-dallas-javi/players/");
       }
       else if (team == "rsl") {
-        postMessage("https://www.enjore.com/en/team/494869/real-salt-lake-tba/players/");
+        postMessage("https://www.enjore.com/en/team/494869/real-salt-lake-xavi/players/");
       }
     }
     
