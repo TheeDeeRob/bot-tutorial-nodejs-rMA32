@@ -114,7 +114,7 @@ function respond() {
   } 
   else if(request.text && botTable.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/teamtable/91022/fil-mls/");
+    postMessage("https://www.enjore.com/en/teamtable/93115/fil-usa-season-2/");
     this.res.end();
   }
   else if(request.text && botRegexCC.test(request.text)) {
@@ -147,46 +147,58 @@ function respond() {
     var team = request.text.substring(4,9);
     if(team) {
       if (team == "col") {
-        postMessage("https://www.enjore.com/en/team/494839/colorado-rapids-mark/players");
+        postMessage("https://www.enjore.com/en/team/506265/colorado-rapids-sean/players/");
       }
       else if (team == "cc") {
         postMessage("https://www.enjore.com/en/team/494840/columbus-crew-soccer-club-will/players/");
       }
       else if (team == "dc") {
-        postMessage("https://www.enjore.com/en/team/494841/d-c-united-john/players/");
+        postMessage("https://www.enjore.com/en/team/506271/d-c-united-edgar/players/");
       }
       else if (team == "la") {
-        postMessage("https://www.enjore.com/en/team/494842/los-angeles-galaxy-david/players/");
+        postMessage("https://www.enjore.com/en/team/506275/los-angeles-galaxy-will/players/");
       }
       else if (team == "mon") {
-        postMessage("https://www.enjore.com/en/team/494843/montreal-impact-gershom/players/");
+        postMessage("https://www.enjore.com/en/team/506277/montreal-impact-kuako/players");
       }
       else if (team == "nyr") {
         postMessage("https://www.enjore.com/en/team/494844/new-york-red-bulls-johnie/players/");
       }
-      else if (team == "nyc") {
-        postMessage("https://www.enjore.com/en/team/494845/new-york-city-football-club-danny/players/");
+      else if (team == "por") {
+        postMessage("https://www.enjore.com/en/team/506302/portland-timbers-danny/players/");
       }
       else if (team == "orl") {
-        postMessage("https://www.enjore.com/en/team/494846/orlando-city-soccer-club-kuako/players/");
+        postMessage("https://www.enjore.com/en/team/506281/orlando-city-soccer-club-phill/players/");
       }
       else if (team == "sea") {
-        postMessage("https://www.enjore.com/en/team/494847/seattle-sounders-football-club-dino/players/");
+        postMessage("https://www.enjore.com/en/team/506289/seattle-sounders-football-club-mark/players/");
       }
       else if (team == "kc") {
         postMessage("https://www.enjore.com/en/team/494848/sporting-kansas-city-phill/players/");
       }
       else if (team == "tor") {
-        postMessage("https://www.enjore.com/en/team/494849/toronto-football-club-jake/players/");
+        postMessage("https://www.enjore.com/en/team/506285/toronto-football-club-javi/players/");
       }
       else if (team == "phi") {
-        postMessage("https://www.enjore.com/en/team/494850/philadelphia-union-alex/players/");
+        postMessage("https://www.enjore.com/en/team/506286/philadelphia-union-jake/players/");
       }
       else if (team == "chi") {
-        postMessage("https://www.enjore.com/en/team/494851/chicago-fire-sean/players/");
+        postMessage("https://www.enjore.com/en/team/506264/chicago-fire-johnie/");
       }
       else if (team == "dal") {
         postMessage("https://www.enjore.com/en/team/494863/fc-dallas-javi/players/");
+      }
+       else if (team == "van") {
+        postMessage("https://www.enjore.com/en/team/506298/vancouver-whitecaps-shane/players/");
+      }
+       else if (team == "sj") {
+        postMessage("https://www.enjore.com/en/team/506299/san-jose-earthquakes-xavi/players/");
+      }
+       else if (team == "hou") {
+        postMessage("https://www.enjore.com/en/team/506300/houston-dynamo-gersh/players/");
+      }
+      else if (team == "ne") {
+        postMessage("https://www.enjore.com/en/team/506301/new-england-revolution-david/players/");
       }
       else if (team == "rsl") {
         postMessage("https://www.enjore.com/en/team/494869/real-salt-lake-xavi/players/");
