@@ -45,7 +45,7 @@ function respond() {
   }
   else if (request.text && botGoldenBoot.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/score/t-44701/fil-mls/");
+    postMessage("https://www.enjore.com/en/score/93115/fil-usa-season-2/#_=_");
     this.res.end();
     
   }
