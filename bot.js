@@ -94,7 +94,7 @@ function respond() {
   } 
   else if(request.text && botRegexSb.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/tournament/45821/fil-usa-open-cup/stream/");
+    postMessage("https://www.enjore.com/en/calendar/96865/round-a/");
     this.res.end();
   } 
   else if(request.text && botRegexSh.test(request.text)) {
