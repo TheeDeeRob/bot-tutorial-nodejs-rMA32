@@ -45,7 +45,7 @@ function respond() {
   }
   else if (request.text && botGoldenBoot.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/score/93115/fil-usa-season-2/#_=_");
+    postMessage("https://www.enjore.com/en/score/96794/fil-usa-season-3/");
     this.res.end();
     
   }
@@ -114,7 +114,7 @@ function respond() {
   } 
   else if(request.text && botTable.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/teamtable/93115/fil-usa-season-2/");
+    postMessage("https://www.enjore.com/en/teamtable/96794/fil-usa-season-3/");
     this.res.end();
   }
   else if(request.text && botRegexCC.test(request.text)) {
