@@ -30,7 +30,7 @@ function respond() {
   }
     else if (request.text && botDRAFT.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/spreadsheets/d/1RLt5e2PMHEOoVij3S4b1Y7CYzqpw6bTsfGdP8-ACQoY/pubhtml");
+    postMessage("https://docs.google.com/spreadsheets/d/10m5VR9kROrhr8CYbG4vAdrgX9PwNTApsGJLQVvBydjU/pubhtml");
     this.res.end();
   }
   else if (request.text && botSd.test(request.text)) {
