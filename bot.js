@@ -8,7 +8,7 @@ function respond() {
       botSquad= /^\/sq/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
       botRegexApp=/^\/app/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botTable = /^\/tab1/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/usopen/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
-      botRegexSiege = /^\/siege/; botGoldenBoot = /^\/goldenboot/; botSf = /^\/sf/;  botSd = /^\/sd/;  botDRAFT = /^\/draft/; botSteve = /^\/steve/;
+      botRegexSiege = /^\/siege/; botGoldenBoot = /^\/gb1/; botSf = /^\/sf/;  botSd = /^\/sd/;  botDRAFT = /^\/draft/; botSteve = /^\/steve/;
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
       siege3 = 'https://i.groupme.com/960x960.png.006e180e05d841c6a2962e844bf1e6fd';
   var teamAb = ["NE","NO","ARI","PHI","CLE","TEN","OAK","DAL","IND","SEA","CIN","PIT","JAC"
@@ -45,7 +45,7 @@ function respond() {
   }
   else if (request.text && botGoldenBoot.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/score/96794/fil-usa-season-3/");
+    postMessage("https://www.enjore.com/en/score/101457/division-1/");
     this.res.end();
     
   }
