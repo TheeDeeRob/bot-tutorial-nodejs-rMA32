@@ -6,7 +6,7 @@ var botID = process.env.BOT_ID;
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),botHugs = /^\/hugs/;
       botSquad= /^\/sq/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
-      botRegexApp=/^\/app/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botTable = /^\/table/;
+      botRegexApp=/^\/app/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botTable = /^\/tab1/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/usopen/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botGoldenBoot = /^\/goldenboot/; botSf = /^\/sf/;  botSd = /^\/sd/;  botDRAFT = /^\/draft/; botSteve = /^\/steve/;
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
@@ -114,7 +114,7 @@ function respond() {
   } 
   else if(request.text && botTable.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://www.enjore.com/en/teamtable/96794/fil-usa-season-3/");
+    postMessage("https://www.enjore.com/en/teamtable/101457/division-1/");
     this.res.end();
   }
   else if(request.text && botRegexCC.test(request.text)) {
