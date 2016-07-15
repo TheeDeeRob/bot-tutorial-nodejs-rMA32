@@ -5,7 +5,7 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),botHugs = /^\/hugs/;
-      botSquad= /^\/sq/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
+      botStream= /^\/st/i;botRegex = /^\/cool guy/; botRegexDLRecAvg = /^\/rec avg/;  botRegexDL = /^\/DDL/i;botCga = /^\/cga/;botRegexRules = /^\/rules/
       botRegexApp=/^\/app/;botRegexGTA = /^\/gta/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botTable = /^\/tab1/;
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/usa/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botGoldenBoot = /^\/gb1/; botTable2 = /^\/tab2/;  botGoldenBoot2 = /^\/gb2/;  botDRAFT = /^\/draft/; botSteve = /^\/steve/;
@@ -142,7 +142,7 @@ function respond() {
     postMessage("You Disgusting Fuck");
     this.res.end();
   }
-    else if(request.text && botSquad.test(request.text)) {
+    else if(request.text && botStream.test(request.text)) {
     this.res.writeHead(200);
     var team = request.text.substring(4,9);
     if(team) {
